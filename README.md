@@ -13,6 +13,7 @@ A full-stack web application built using Flask and MySQL to manage employee reco
 ## Project Structure
 
 employment-management-system/
+
 ├── app.py
 
 ├── requirements.txt
