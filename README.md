@@ -14,15 +14,25 @@ A full-stack web application built using Flask and MySQL to manage employee reco
 
 employment-management-system/
 ├── app.py
+
 ├── requirements.txt
+
 ├── templates/
+
 │ ├── register.html
+
 │ ├── login.html
+
 │ ├── forgot_password.html
+
 │ ├── add_employee.html
+
 │ ├── dashboard.html
+
 │ └── edit_employee.html
+
 ├── static/
+
 │ └── style.css
 
 
