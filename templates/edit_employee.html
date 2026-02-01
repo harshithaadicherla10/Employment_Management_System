@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Employee</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+
+<body>
+    <center>
+        <h2>Edit Employee</h2>
+        <form action="/edit_employee" method="post">
+            <input type="text" name="ename" value="{{emp.ename}}"><br><br>
+            <input type="text" name="edept" value="{{emp.edept}}"><br><br>
+            <input name="esalary" value="{{emp.esalary}}"><br><br>
+            <input name="ephone" value="{{emp.ephone}}"><br><br>
+            <button type="submit">Update</button>
+        </form>
+    </center>
+
+</body>
+
+</html>
